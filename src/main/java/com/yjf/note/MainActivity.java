@@ -79,6 +79,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                Uri imageUri = data.getData();
                System.out.println(imageUri.getPath());
                if(imageUri != null){
+                   //TODO 添加图片保存的代码
                }
            }
        }
@@ -100,14 +101,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
               if(imageList.size() == id){
                   Toast.makeText(this,"已经是最后一张了", Toast.LENGTH_SHORT).show();
               }else{
-                  //返回下一张
+                  // TODO 返回下一张
 
               }
           }else{
               if(id == 0){
                   Toast.makeText(this.getApplicationContext(),"已经是第一张了", Toast.LENGTH_SHORT).show();
               }else{
-                  //返回上一张
+                  //TODO 返回上一张
 
               }
           }
